@@ -23,6 +23,9 @@
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
     {"name":"oVMoveWall","order":5,"path":"objects/oVMoveWall/oVMoveWall.yy",},
     {"name":"sMWall","order":2,"path":"sprites/sMWall/sMWall.yy",},
+    {"name":"Sprite5","order":4,"path":"sprites/Sprite5/Sprite5.yy",},
     {"name":"oCamera","order":2,"path":"objects/oCamera/oCamera.yy",},
+    {"name":"sEnemy","order":3,"path":"sprites/sEnemy/sEnemy.yy",},
+    {"name":"oEnemy","order":6,"path":"objects/oEnemy/oEnemy.yy",},
   ],
 }

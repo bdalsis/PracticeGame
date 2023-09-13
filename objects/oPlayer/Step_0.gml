@@ -22,10 +22,11 @@ if(place_meeting(x, y+1, oWall) && key_jump){
 	vsp = -1*jump_hgt;
 }
 
-if(place_meeting(x, y+vsp, oWall)){		//check for horizontal collision
+if(place_meeting(x, y+vsp, oWall)){		//check for below collision
 	while(!place_meeting(x, y+sign(vsp), oWall)){
 		y += sign(vsp);
 	}
 	vsp = 0;
 }
+
 y += vsp;
