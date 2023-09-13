@@ -30,3 +30,9 @@ if(place_meeting(x, y+vsp, oWall)){		//check for below collision
 }
 
 y += vsp;
+
+//check hp
+if(hp <= 0 && dead == false){
+	sprite_index = sDissolve;
+	dead = true;
+}
