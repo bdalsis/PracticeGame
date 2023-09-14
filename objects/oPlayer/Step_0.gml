@@ -14,6 +14,9 @@ if(global.game_state = GAME_STATE.PLAYING){
 		hsp = 0;
 	}
 
+	if(hsp > 0){
+		//do particle
+	}
 	x += hsp;
 
 	//vertical movement
@@ -22,8 +25,14 @@ if(global.game_state = GAME_STATE.PLAYING){
 	if(place_meeting(x, y+1, oWall) && key_jump){
 		vsp = -1*jump_hgt;
 	}
-
-	if(place_meeting(x, y+vsp, oWall)){		//check for below collision
+	
+	if(place_meeting(x+1, y, oWall) || place_meeting(x-1, y, oWall)){	//wall friction
+		if(vsp > 0){
+			vsp -= wall_friction;
+		}
+	}
+	
+	if(place_meeting(x, y+vsp, oWall)){		//check for vertical collision
 		while(!place_meeting(x, y+sign(vsp), oWall)){
 			y += sign(vsp);
 		}
