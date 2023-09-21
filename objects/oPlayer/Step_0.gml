@@ -43,7 +43,9 @@ if(global.game_state = GAME_STATE.PLAYING){
 }
 
 //check hp
+	/*
 	if(hp <= 0 && dead == false){
 		sprite_index = sDissolve;
 		dead = true;
 	}
+	*/

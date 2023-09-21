@@ -35,6 +35,7 @@
   },
   "resources": [
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"oHMoveWall","path":"objects/oHMoveWall/oHMoveWall.yy",},},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},},
     {"id":{"name":"oGameController","path":"objects/oGameController/oGameController.yy",},},
@@ -46,6 +47,7 @@
     {"id":{"name":"sDissolve","path":"sprites/sDissolve/sDissolve.yy",},},
     {"id":{"name":"oShootEnemy","path":"objects/oShootEnemy/oShootEnemy.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
+    {"id":{"name":"player_respawn","path":"scripts/player_respawn/player_respawn.yy",},},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
@@ -54,6 +56,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType": "game",

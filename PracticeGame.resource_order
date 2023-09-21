@@ -18,6 +18,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
+    {"name":"Room2","order":2,"path":"rooms/Room2/Room2.yy",},
     {"name":"oHMoveWall","order":4,"path":"objects/oHMoveWall/oHMoveWall.yy",},
     {"name":"sBullet","order":5,"path":"sprites/sBullet/sBullet.yy",},
     {"name":"oGameController","order":3,"path":"objects/oGameController/oGameController.yy",},
