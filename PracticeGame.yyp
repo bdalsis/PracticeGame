@@ -36,6 +36,7 @@
   "resources": [
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"id":{"name":"oFVMoveWall","path":"objects/oFVMoveWall/oFVMoveWall.yy",},},
     {"id":{"name":"oHMoveWall","path":"objects/oHMoveWall/oHMoveWall.yy",},},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},},
     {"id":{"name":"oGameController","path":"objects/oGameController/oGameController.yy",},},
@@ -45,6 +46,7 @@
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"id":{"name":"oVMoveWall","path":"objects/oVMoveWall/oVMoveWall.yy",},},
     {"id":{"name":"sMWall","path":"sprites/sMWall/sMWall.yy",},},
+    {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"id":{"name":"sDissolve","path":"sprites/sDissolve/sDissolve.yy",},},
     {"id":{"name":"oShootEnemy","path":"objects/oShootEnemy/oShootEnemy.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
@@ -55,10 +57,12 @@
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"id":{"name":"test","path":"particles/test/test.yy",},},
+    {"id":{"name":"sFMWall","path":"sprites/sFMWall/sFMWall.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
