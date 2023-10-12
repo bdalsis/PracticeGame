@@ -14,9 +14,6 @@ if(global.game_state = GAME_STATE.PLAYING){
 		hsp = 0;
 	}
 
-	if(hsp > 0){
-		//do particle
-	}
 	x += hsp;
 
 	//vertical movement
@@ -42,6 +39,10 @@ if(global.game_state = GAME_STATE.PLAYING){
 	y += vsp;
 }
 
+	if(hsp != 0 && vsp == 0){
+		part_particles_create(oParticleSetup.particle_system, x, y + oPlayer.sprite_height/2, oParticleSetup.particle_walk, 5);
+	}
+	
 //check hp
 	/*
 	if(hp <= 0 && dead == false){
