@@ -19,7 +19,7 @@ if(global.game_state = GAME_STATE.PLAYING){
 	//vertical movement
 
 	vsp += grav;
-	if(place_meeting(x, y+1, oWall) && key_jump){
+	if(place_meeting(x, y+1, oWall) && key_jump){		//check for jump
 		vsp = -1*jump_hgt;
 	}
 	
@@ -37,16 +37,11 @@ if(global.game_state = GAME_STATE.PLAYING){
 	}
 
 	y += vsp;
-}
 
-	if(hsp != 0 && vsp == 0){
-		part_particles_create(oParticleSetup.particle_system, x, y + oPlayer.sprite_height/2, oParticleSetup.particle_walk, 5);
+
+	if(hsp != 0 && vsp == 0){		//particle creation for player
+		var spacing_buffer = 2;
+		part_particles_create(oParticleSetup.particle_system, x - (move*16), y + oPlayer.sprite_height/2 - spacing_buffer, oParticleSetup.particle_walk, 5);
 	}
+}
 	
-//check hp
-	/*
-	if(hp <= 0 && dead == false){
-		sprite_index = sDissolve;
-		dead = true;
-	}
-	*/
