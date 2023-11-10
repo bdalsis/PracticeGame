@@ -3,5 +3,4 @@
 function player_respawn(){
 	oPlayer.x = oPlayer.xstart;
 	oPlayer.y = oPlayer.ystart;
-	oPlayer.hp = 1;
 }

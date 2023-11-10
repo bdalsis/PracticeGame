@@ -1,4 +1,3 @@
-hp = 1;
 walk_spd = 2;
 dir = -1;
 travel_dist = 32;
