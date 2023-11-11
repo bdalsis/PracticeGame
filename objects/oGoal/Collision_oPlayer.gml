@@ -1,1 +1,3 @@
-room_goto_next();
+if(!(room == Room4)){
+	room_goto_next();
+}
