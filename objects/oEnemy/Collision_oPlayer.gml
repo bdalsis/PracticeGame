@@ -1,1 +1,1 @@
-player_respawn();
+room_restart();

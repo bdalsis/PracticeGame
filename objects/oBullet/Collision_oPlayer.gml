@@ -1,2 +1,2 @@
 instance_destroy();
-player_respawn();
+room_restart();
