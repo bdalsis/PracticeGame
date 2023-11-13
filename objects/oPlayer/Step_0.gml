@@ -1,7 +1,7 @@
 if(global.game_state = GAME_STATE.PLAYING){
-	key_left = keyboard_check(vk_left);
-	key_right = keyboard_check(vk_right);
-	key_jump = keyboard_check(vk_space);
+	key_left = keyboard_check(ord("A"));
+	key_right = keyboard_check(ord("D"));
+	key_jump = keyboard_check(ord("W"));
 
 	//horizontal movement
 	var move = key_right - key_left;
