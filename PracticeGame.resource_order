@@ -48,6 +48,7 @@
     {"name":"Room2","order":9,"path":"rooms/Room2/Room2.yy",},
     {"name":"Room7","order":11,"path":"rooms/Room7/Room7.yy",},
     {"name":"sGoal","order":7,"path":"sprites/sGoal/sGoal.yy",},
+    {"name":"a","order":12,"path":"rooms/a/a.yy",},
     {"name":"oGoal","order":9,"path":"objects/oGoal/oGoal.yy",},
     {"name":"sBackgroundTile1","order":9,"path":"sprites/sBackgroundTile1/sBackgroundTile1.yy",},
     {"name":"oBullet","order":7,"path":"objects/oBullet/oBullet.yy",},

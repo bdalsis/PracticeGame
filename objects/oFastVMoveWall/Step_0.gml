@@ -6,7 +6,7 @@ if(global.game_state = GAME_STATE.PLAYING){
 	y += spd * dir;
 
 	//move player when standing on top
-	if(place_meeting(x, y-1, oPlayer)){
+	if(place_meeting(x, y-4, oPlayer)){		//no clue why its y-4 but it fixed a really annoying bug
 		oPlayer.y += spd * dir;
 	}
 }
