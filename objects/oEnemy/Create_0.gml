@@ -1,4 +1,4 @@
-walk_spd = 2;
+walk_spd = 1.75;
 dir = -1;
 travel_dist = 32;
 
