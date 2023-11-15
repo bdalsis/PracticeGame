@@ -1,7 +1,6 @@
 enum GAME_STATE{
 	PLAYING,
-	PAUSED,
-	GAME_OVER
+	PAUSED
 }
 
 global.game_state = GAME_STATE.PLAYING;
