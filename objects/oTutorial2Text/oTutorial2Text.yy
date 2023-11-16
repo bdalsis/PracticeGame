@@ -1,12 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oEndText",
+  "name": "oTutorial2Text",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oTextBox","path":"objects/oTextBox/oTextBox.yy",},"propertyId":{"name":"text","path":"objects/oTextBox/oTextBox.yy",},"value":"Everything is as it should be.",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oTextBox","path":"objects/oTextBox/oTextBox.yy",},"propertyId":{"name":"seconds","path":"objects/oTextBox/oTextBox.yy",},"value":"5",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oTextBox","path":"objects/oTextBox/oTextBox.yy",},"propertyId":{"name":"text","path":"objects/oTextBox/oTextBox.yy",},"value":"Use 'space' to jump",},
   ],
   "parent": {
     "name": "Objects",
