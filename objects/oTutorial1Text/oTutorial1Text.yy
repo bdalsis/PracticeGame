@@ -6,7 +6,6 @@
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oTextBox","path":"objects/oTextBox/oTextBox.yy",},"propertyId":{"name":"text","path":"objects/oTextBox/oTextBox.yy",},"value":"Use 'a' and 'd' to move",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oTextBox","path":"objects/oTextBox/oTextBox.yy",},"propertyId":{"name":"seconds","path":"objects/oTextBox/oTextBox.yy",},"value":"5",},
   ],
   "parent": {
     "name": "Objects",

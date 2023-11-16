@@ -92,6 +92,7 @@
     {"name":"inst_5575CFE3","path":"rooms/Room10/Room10.yy",},
     {"name":"inst_443A873D","path":"rooms/Room10/Room10.yy",},
     {"name":"inst_ED3A934","path":"rooms/Room10/Room10.yy",},
+    {"name":"inst_67AB8BE2","path":"rooms/Room10/Room10.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -178,6 +179,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7402C131","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oHMoveWall","path":"objects/oHMoveWall/oHMoveWall.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":1.0,"x":720.0,"y":448.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2E4DFC7C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oHMoveWall","path":"objects/oHMoveWall/oHMoveWall.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":1.0,"x":944.0,"y":448.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_75483DFD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oHMoveWall","path":"objects/oHMoveWall/oHMoveWall.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":1.0,"x":1200.0,"y":448.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_67AB8BE2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oWall","path":"objects/oWall/oWall.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":640.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Bullets","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Player","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
