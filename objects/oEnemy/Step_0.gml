@@ -13,4 +13,7 @@ if(global.game_state = GAME_STATE.PLAYING){
 	}
 
 	x += walk_spd * dir;
+	
+	var spacing_buffer = 2;
+	part_particles_create(oParticleSetup.particle_system, x - (dir*16), y + oEnemy.sprite_height/2 - spacing_buffer, oParticleSetup.particle_walk, 1);
 }

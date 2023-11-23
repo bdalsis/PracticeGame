@@ -1,5 +1,6 @@
 if alpha < 1 {
-   alpha += 1/fadeTime; // alpha will reach 1 at set fade time
+   alpha += fade_factor/fade_time; // alpha will reach 1 at set fade time
+   fade_factor = 0.05 + fade_factor;
 } else {
 	if(!exists){
 		exists = true;
