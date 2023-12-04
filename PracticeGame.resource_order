@@ -30,6 +30,7 @@
     {"name":"sPause","order":15,"path":"sprites/sPause/sPause.yy",},
     {"name":"Room9","order":13,"path":"rooms/Room9/Room9.yy",},
     {"name":"sBackgroundTile4","order":12,"path":"sprites/sBackgroundTile4/sBackgroundTile4.yy",},
+    {"name":"Room12","order":18,"path":"rooms/Room12/Room12.yy",},
     {"name":"sBackgroundTile3","order":11,"path":"sprites/sBackgroundTile3/sBackgroundTile3.yy",},
     {"name":"oEndText","order":21,"path":"objects/oEndText/oEndText.yy",},
     {"name":"Tutorial3","order":5,"path":"rooms/Tutorial3/Tutorial3.yy",},
