@@ -70,6 +70,7 @@
     {"name":"Room7","order":17,"path":"rooms/Room7/Room7.yy",},
     {"name":"oEnemy","order":6,"path":"objects/oEnemy/oEnemy.yy",},
     {"name":"oTitleText","order":14,"path":"objects/oTitleText/oTitleText.yy",},
+    {"name":"Room13","order":19,"path":"rooms/Room13/Room13.yy",},
     {"name":"sFMWall","order":8,"path":"sprites/sFMWall/sFMWall.yy",},
     {"name":"oQuitButton","order":15,"path":"objects/oQuitButton/oQuitButton.yy",},
     {"name":"fnt_textbox","order":2,"path":"fonts/fnt_textbox/fnt_textbox.yy",},
