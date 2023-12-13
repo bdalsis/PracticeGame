@@ -30,8 +30,9 @@ if(global.game_state = GAME_STATE.PLAYING){
 	}
 	
 	if(place_meeting(x, y+vsp, oWall)){		//check for vertical collision
-		while(!place_meeting(x, y+sign(vsp), oWall)){
-			y += sign(vsp);
+		var vsp_sign = sign(vsp);
+		while(!place_meeting(x, y+vsp_sign, oWall)){
+			y += vsp_sign;
 		}
 		vsp = 0;
 	}
