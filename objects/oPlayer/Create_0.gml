@@ -7,3 +7,4 @@ jump_hgt = 7;
 wall_friction = 0.08;
 deaths = 0;
 timer = 0.0;
+max_vertical_vel = 20;
