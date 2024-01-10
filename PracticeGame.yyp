@@ -107,6 +107,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"Tutorial1","path":"rooms/Tutorial1/Tutorial1.yy",},},
+    {"roomId":{"name":"End","path":"rooms/End/End.yy",},},
     {"roomId":{"name":"Tutorial2","path":"rooms/Tutorial2/Tutorial2.yy",},},
     {"roomId":{"name":"Tutorial3","path":"rooms/Tutorial3/Tutorial3.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
@@ -125,7 +126,6 @@
     {"roomId":{"name":"Room14","path":"rooms/Room14/Room14.yy",},},
     {"roomId":{"name":"Room12","path":"rooms/Room12/Room12.yy",},},
     {"roomId":{"name":"Room13","path":"rooms/Room13/Room13.yy",},},
-    {"roomId":{"name":"End","path":"rooms/End/End.yy",},},
     {"roomId":{"name":"tester","path":"rooms/tester/tester.yy",},},
   ],
   "templateType": "game",
