@@ -34,6 +34,7 @@
     {"name":"sBackgroundTile3","order":11,"path":"sprites/sBackgroundTile3/sBackgroundTile3.yy",},
     {"name":"oEndText","order":21,"path":"objects/oEndText/oEndText.yy",},
     {"name":"Tutorial3","order":5,"path":"rooms/Tutorial3/Tutorial3.yy",},
+    {"name":"Room17","order":23,"path":"rooms/Room17/Room17.yy",},
     {"name":"sBullet","order":5,"path":"sprites/sBullet/sBullet.yy",},
     {"name":"oGameController","order":3,"path":"objects/oGameController/oGameController.yy",},
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},

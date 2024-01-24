@@ -52,6 +52,7 @@
     {"id":{"name":"sBackgroundTile3","path":"sprites/sBackgroundTile3/sBackgroundTile3.yy",},},
     {"id":{"name":"oEndText","path":"objects/oEndText/oEndText.yy",},},
     {"id":{"name":"Tutorial3","path":"rooms/Tutorial3/Tutorial3.yy",},},
+    {"id":{"name":"Room17","path":"rooms/Room17/Room17.yy",},},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},},
     {"id":{"name":"oGameController","path":"objects/oGameController/oGameController.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
@@ -105,6 +106,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"Room17","path":"rooms/Room17/Room17.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"Tutorial1","path":"rooms/Tutorial1/Tutorial1.yy",},},
     {"roomId":{"name":"Tutorial2","path":"rooms/Tutorial2/Tutorial2.yy",},},

@@ -22,7 +22,7 @@ if(global.game_state == GAME_STATE.PLAYING){
 			}
 			image_angle = direction;
 		}
-		bullet_delay = 10;
+		bullet_delay = 12;
 	} else {
 		bullet_delay--;
 	}
