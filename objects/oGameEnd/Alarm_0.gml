@@ -1,2 +1,2 @@
 instance_destroy(oGameController);
-room_goto(rm_menu);
+room_goto(Menu);
