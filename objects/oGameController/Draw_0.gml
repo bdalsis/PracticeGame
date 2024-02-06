@@ -18,13 +18,23 @@ var cam_x_offset = camera_get_view_width(view_camera[0]) / 2 - 75;
 var cam_y_offset = camera_get_view_height(view_camera[0]) / 2 - 51;
 draw_set_font(fnt_textbox);
 draw_set_color(c_white);
-draw_text(oCamera.x + cam_x_offset, oCamera.y - cam_y_offset - 30, "Deaths: " + string(global.death_counter));
-if(sec < 10){ draw_text(oCamera.x + cam_x_offset, oCamera.y - cam_y_offset, "Time: " + string(minutes) + ":0" + string(int64(sec))); }
-else {  draw_text(oCamera.x + cam_x_offset, oCamera.y - cam_y_offset, "Time: " + string(minutes) + ":" + string(int64(sec))); }
+
+//draw death counter
+draw_text(oCamera.x + cam_x_offset, oCamera.y - cam_y_offset, "Deaths: " + string(global.death_counter));
+
+draw_text(oCamera.x + cam_x_offset, oCamera.y - cam_y_offset - 30, "Level " + string(global.room_counter));
+
+//draw timer
+if(sec < 10){ 
+	draw_text(oCamera.x + cam_x_offset, oCamera.y - cam_y_offset + 30, "Time: " + string(minutes) + ":0" + string(int64(sec)));
+}
+else{ 
+	draw_text(oCamera.x + cam_x_offset, oCamera.y - cam_y_offset + 30, "Time: " + string(minutes) + ":" + string(int64(sec)));
+}
+	
 //timer calculations
 sec += 1/(room_speed);
 if(sec == 60){
 	minutes++;
 	sec = 0;
 }
-
