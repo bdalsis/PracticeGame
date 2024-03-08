@@ -14,3 +14,4 @@ Qb is a 2D platformer created by Brick Dalsis. Play through 20 fun and challengi
 - Add controller support
 - Fix particle errors on moving platforms
 - Add more levels
+- Add options menu during pause and also on main menu that contains controls, audio levels, etc.
