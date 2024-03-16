@@ -20,6 +20,7 @@ if(global.game_state = GAME_STATE.PLAYING){
 	vsp += grav;
 	if(place_meeting(x, y+1, oWall) && key_jump){		//check for jump
 		vsp = -1*jump_hgt;
+		audio_play_sound(snd_jump, 0, false);	//Retro video game sfx - Hop by OwlStorm -- https://freesound.org/s/404794/ -- License: Creative Commons 0
 	}
 	
 	if(place_meeting(x+1, y, oWall) || place_meeting(x-1, y, oWall)){	//wall friction
@@ -35,6 +36,7 @@ if(global.game_state = GAME_STATE.PLAYING){
 		}
 		vsp = 0;
 	}
+	
 
 	y += vsp;
 
