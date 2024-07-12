@@ -1,7 +1,7 @@
 
 # Qb
 
-Qb is a Cool Math Games inspired 2D platformer created by Brick Dalsis. Play through 20 fun and challenging levels to complete the game. Developed in GameMakerStudio. Music also created by Brick Dalsis. 
+Jump and dodge your way through 20 fun and challenging levels in order to complete your Qb journey. Watch out for enemy Qbs as they try to stop you from reaching the goal.
 
 
 ## Code
